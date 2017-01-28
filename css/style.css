@@ -553,6 +553,22 @@ ul {
   margin-bottom: 20px;
 }
 
+@media ( max-width: 1280px){
+
+    .screen img {
+    z-index: 4;
+    width: 250px;
+}
+}
+
+@media ( max-width: 1028px){
+
+    .screen img {
+    z-index: 4;
+    width: 200px;
+}
+}
+
 @media (max-width: 850px) {
   .product h5 {
     margin-top: 5px;
