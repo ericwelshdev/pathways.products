@@ -85,6 +85,17 @@ h2 {
   color: rgb(147, 147, 147);
 }
 
+h2-sub {
+  width: 66%;
+  margin: 10px auto 0;
+  font-size: 1.9em;
+  line-height: 1.68;
+  text-align: center;
+  color: rgb(147, 147, 147);
+}
+
+
+
 h3 {
   float: left;
   clear: both;
@@ -223,6 +234,10 @@ h5 {
       background-color: rgb(67, 67, 69)
 }
 
+.explore .medium-section-name, .explore .medium-section-short, .explore .medium-section-text{
+    color:#fff;
+}
+
 .outreach .medium-section-name, .outreach .medium-section-short, .outreach .medium-section-text{
     color:#fff;
 }
@@ -276,11 +291,12 @@ header {
 }
 
 .logo {
-  display: block;
+  display: inline-block;
   float: left;
   width: 100px;
   margin: 5px 0 0 8.5%;
 }
+
 
 img {
   display: block;
@@ -364,6 +380,31 @@ ul {
   padding-bottom: 130px;
 }
 
+
+
+.medium-section-background {
+    margin-top: 0;
+    /*margin-bottom: 96px;*/
+    height: 400px;
+    /*background: url(../images/bg-poly.jpg) 50% 0 no-repeat rgb(0, 0, 0);*/
+	padding-top: 90px;
+	padding-bottom: 70px;
+    background: url(../images/bg_screen_20.jpeg) no-repeat center center;
+    /*background-size: 100% 100%;*/
+	/*background-image: url(../images/bg-splash.jpeg);*/
+    background-size: cover;
+	height: 100%;
+	position: relative;
+
+}
+
+.medium-banner-section{
+  position: relative;
+  /*padding-top: 20px;*/
+  padding-bottom: 20px;
+}
+
+
 .medium-section-text {
   float: left;
   clear: both;
@@ -383,6 +424,68 @@ ul {
   line-height: 1.38;
   text-align: center;
   color: rgb(208, 208, 208);
+}   
+.banner-block {
+	background-color: rgba(38, 114, 136, 0.42);
+	color: #fff;
+	width: 100%;
+	margin: 10px auto 0;
+	padding: 10px;
+	/*height: 180px;*/
+    display: inline-block;
+}
+
+.banner-block-inner{
+    width:70%;
+    margin: 10px auto 0;
+}
+
+.banner-block h2 {
+	width: 100%!important;
+	margin: 10px auto 0;
+	font-size: 1.2em;
+	line-height: 1.68;
+	text-align: left;
+	color: #fff;
+    padding-bottom:10px;
+}
+.banner-block ul{
+
+	/*margin: 0;
+	padding: 0;
+	list-style: none;
+    width:50%;
+    float:left;*/
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+
+.col-left{
+    width:50%;
+    float:left;
+}
+.col-right{
+    width:50%;
+    float:right;
+}
+
+.banner-list {
+	margin-bottom: 20px;
+}
+
+.banner-list li {
+	color: rgba(255,255,255, 0.8);
+	margin-bottom: 5px;
+	float: none !important;
+	width: 100% !important;
+	margin-left: 50px;
+    float: left;
+    width: 22.8535353535%;
+    display:inline-flex
 }
 
 .features {
@@ -464,6 +567,12 @@ ul {
   padding-top: 40px;
   padding-bottom: 50px;
   text-align: center;
+}
+
+.small-section-empty {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 .text {
@@ -553,13 +662,6 @@ ul {
   margin-bottom: 20px;
 }
 
-@media ( max-width: 1280px){
-
-    .screen img {
-    z-index: 4;
-    width: 250px;
-}
-}
 
 @media ( max-width: 1028px){
 
@@ -567,9 +669,35 @@ ul {
     z-index: 4;
     width: 200px;
 }
+
+    .banner-block-inner{
+    width:90%;
+}
+}
+
+@media ( max-width: 1280px){
+
+    .screen img {
+    z-index: 4;
+    width: 200px;
+}
+
+    .banner-block-inner{
+    width:90%;
+}
 }
 
 @media (max-width: 850px) {
+
+.col-left{
+    width:auto;
+    float:none;
+}
+.col-right{
+    width:auto;
+    float:none;
+}
+
   .product h5 {
     margin-top: 5px;
     font-weight: 700;
@@ -611,6 +739,7 @@ ul {
 
   img {
     height: auto;
+    width:64px;
   }
 
   li {
@@ -621,9 +750,6 @@ ul {
     width: 433px;
   }
 
-  .adam {
-    margin-left: 4.2876002443%;
-  }
 
   .product .medium-section-text {
     margin-top: 30px;
@@ -634,9 +760,6 @@ ul {
     margin-left: 17.0588235294%;
   }
 
-  .jones {
-    margin-left: 0;
-  }
 
   .notice {
     float: right;
@@ -647,9 +770,6 @@ ul {
     height: 500px;
   }
 
-  .tom {
-    margin-left: 4.4137061338%;
-  }
 
   .feature-2 {
     margin-left: 17.0513051305%;
@@ -817,6 +937,20 @@ ul {
   .copyright {
     margin-top: 24px;
   }
+
+  .col-left{
+    width:auto;
+    float:none;
+}
+  .col-right{
+    width:auto;
+    float:none;
+}
+  .banner-list li {
+      margin-left:5px;
+      font-size:12px;
+
+  }
 }
 
 @media (max-width: 375px) {
@@ -848,6 +982,26 @@ ul {
     blockquote {
     font-size: 15px;
   }
+
+    .col-left{
+    width:auto;
+    float:none;
+}
+   .col-right{
+    width:auto;
+    float:none;
+}
+     .banner-list li {
+      margin-left:5px;
+      font-size:12px;
+
+  }
+
+     .logo {
+
+  width: 64px;
+
+}
 }
 
 

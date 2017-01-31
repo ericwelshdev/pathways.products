@@ -94,6 +94,10 @@
     <Content Include="fonts\roboto-v15-latin-regular.woff" />
     <Content Include="fonts\roboto-v15-latin-regular.woff2" />
     <Content Include="images\bg-pattern.png" />
+    <Content Include="images\bg-poly.jpg" />
+    <Content Include="images\bg-red.jpg" />
+    <Content Include="images\bg-splash.jpeg" />
+    <Content Include="images\bg_screen_20.jpeg" />
     <Content Include="images\f-analytics.png" />
     <Content Include="images\f-cert.png" />
     <Content Include="images\f-cloud.png" />
