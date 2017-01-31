@@ -65,6 +65,10 @@ body {
   color: rgb(0, 0, 0);
 }
 
+a, a:active, a:focus {
+  outline:0;
+  border:none;
+}
 
 h1 {
   width: 66%;
@@ -485,6 +489,8 @@ ul {
 	margin-left: 50px;
     float: left;
     width: 22.8535353535%;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display:inline-flex
 }
 
