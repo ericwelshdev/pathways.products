@@ -14,11 +14,6 @@ $(window).load(function () {
     }, 1000);
 
 
-
-    // Add slimscroll to element
-    $('#page-wrapper').slimscroll({
-        height: '100%'
-    });
 });
 
 $('a[href*="#"]:not([href="#"])').click(function () {
