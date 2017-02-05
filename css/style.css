@@ -218,7 +218,7 @@ h5 {
 .screen img {
     z-index: 4;
     /*width: 300px;*/
-    width: 200px;
+    width: 100px;
 }
 
 .phone img {
@@ -228,7 +228,8 @@ h5 {
 
 .onramp {
     background-image: url(../images/bg-pattern.png);
-    background-color: rgb(245, 245, 245);
+    /*background-color: rgb(245, 245, 245);*/
+    background-color: rgb(228, 78, 50);
 }
 
 .outreach {
@@ -292,6 +293,18 @@ header {
     margin: 0 auto;
     background-color: rgba(0,0,0,0.35);
 }
+
+.logo-container {
+    display: block;
+}
+
+    .logo-container span {
+        font-size: 30px;
+        font-weight: 400;
+        color: #fff;
+        padding-top: 30px;
+        position: absolute;
+    }
 
 .logo {
     display: inline-block;
@@ -862,7 +875,7 @@ ul {
 
     .screen img {
         z-index: 4;
-        width: 200px;
+        width: 150px;
     }
 
     .banner-block-inner {
@@ -874,7 +887,7 @@ ul {
 
     .screen img {
         z-index: 4;
-        width: 200px;
+        width: 100px;
     }
 
     .banner-block-inner {
@@ -910,7 +923,7 @@ ul {
 
     h4 {
         width: 66%;
-        margin-top: 150px;
+        margin-top: 50px;
         margin-left: 17.0588235294%;
         text-align: center;
     }
@@ -1001,7 +1014,7 @@ ul {
 
     .screen img {
         z-index: 4;
-        width: 200px;
+        width: 100px;
     }
 
     .phone img {
@@ -1096,6 +1109,7 @@ ul {
         margin-top: 10px;
     }
 
+
     header {
         position: static;
         height: auto;
@@ -1105,6 +1119,10 @@ ul {
         float: none;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .logo-container span {
+        display: none;
     }
 
     img {
@@ -1252,6 +1270,14 @@ ul {
         font-size: 12px;
     }
 
+        h2-sub{
+        font-size: 1.0em;
+    }
+
+        h4 {
+        margin-top: 50px;
+    }
+
     .by {
         font-size: 12px;
     }
@@ -1277,6 +1303,10 @@ ul {
 
     .logo {
         width: 64px;
+    }
+
+    .logo-container span {
+        display: none;
     }
 
     .notice {
@@ -1324,6 +1354,12 @@ ul {
         margin-bottom: 50px;
         font-size: 1.7em;
     }
+
+    .medium-section-background{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
 }
 
 #scrollUp {
