@@ -97,6 +97,7 @@
     <Content Include="images\bg-poly.jpg" />
     <Content Include="images\bg-red.jpg" />
     <Content Include="images\bg-splash.jpeg" />
+    <Content Include="images\bg-unfocus.png" />
     <Content Include="images\bg_screen_20.jpeg" />
     <Content Include="images\f-analytics.png" />
     <Content Include="images\f-cert.png" />
@@ -107,6 +108,10 @@
     <Content Include="images\f-sso.png" />
     <Content Include="images\f-workflow.png" />
     <Content Include="images\favico.pdn" />
+    <Content Include="images\icon-explore.png" />
+    <Content Include="images\icon-onramp.png" />
+    <Content Include="images\icon-outreach.png" />
+    <Content Include="images\liveeditions-book-white.png" />
     <Content Include="images\onramp-main-2nd.png" />
     <Content Include="images\onramp-main-blk.png" />
     <Content Include="images\favico.jpg" />
@@ -119,6 +124,11 @@
     <Content Include="images\platform_outreach.png" />
     <Content Include="images\platform_outreach_counselor.png" />
     <Content Include="images\platform_pathways.png" />
+    <Content Include="about-us.html" />
+    <Content Include="images\team-eric-kmiec.jpg" />
+    <Content Include="images\team-scott-getchel.png" />
+    <Content Include="news.html" />
+    <Content Include="privacy.html" />
     <Content Include="index.html" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.svg" />
