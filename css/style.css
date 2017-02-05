@@ -218,7 +218,7 @@ h5 {
 .screen img {
     z-index: 4;
     /*width: 300px;*/
-    width: 100px;
+    width: 200px;
 }
 
 .phone img {
@@ -887,7 +887,7 @@ ul {
 
     .screen img {
         z-index: 4;
-        width: 100px;
+        width: 150px;
     }
 
     .banner-block-inner {
@@ -913,25 +913,25 @@ ul {
     }
 
     .medium-section img {
-        top: 0px;
+        /*top: 0px;
         bottom: auto;
         left: 0;
         right: 0;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: auto;*/
     }
 
     h4 {
         width: 66%;
         margin-top: 50px;
-        margin-left: 17.0588235294%;
-        text-align: center;
+        /*margin-left: 17.0588235294%;
+        text-align: center;*/
     }
 
     h5 {
         width: 66% !important;
-        margin-left: 17.0588235294%;
-        text-align: center;
+        /*margin-left: 17.0588235294%;
+        text-align: center;*/
     }
 
 
@@ -961,12 +961,18 @@ ul {
 
 
     .product .medium-section-text {
-        margin-top: 30px;
+        /*margin-top: 30px;*/
     }
 
+    .medium-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
     .medium-section-text {
-        width: 66%;
-        margin-left: 17.0588235294%;
+        /*width: 66%;
+        margin-left: 17.0588235294%;*/
     }
 
 
@@ -1026,6 +1032,9 @@ ul {
         text-align: justify;
     }
 
+    .phone h4 {
+        margin-top: 150px;
+    }
 
     .notice-section {
         width: 90%;
@@ -1206,6 +1215,10 @@ ul {
         font-size: 12px;
     }
 
+    .phone h4 {
+        margin-top: 150px;
+    }
+
     .notice {
         text-align: justify;
     }
@@ -1249,6 +1262,22 @@ ul {
 
 @media (max-width: 375px) {
 
+
+
+    .medium-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+        .medium-section img {
+            position: relative;
+            padding-top: 5px;
+        }
+
+    .medium-section-text {
+        margin-left: 27%;
+    }
+
     .utility-nav a {
         display: block;
         margin: auto;
@@ -1270,12 +1299,27 @@ ul {
         font-size: 12px;
     }
 
-        h2-sub{
-        font-size: 1.0em;
+    h4 {
+        margin-left: 25%;
     }
 
-        h4 {
-        margin-top: 50px;
+    h2-sub {
+        font-size: 1.0em;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 10px auto 0;
+    }
+
+    h4 {
+        margin-top: 20px;
+    }
+
+    h5 {
+        margin-left: 27%;
+    }
+
+    .phone h4 {
+        margin-top: 25px;
     }
 
     .by {
@@ -1313,6 +1357,14 @@ ul {
         text-align: justify;
     }
 
+    .news-notice {
+        display: block;
+        position: static;
+        padding: 12px 0;
+        margin-bottom: 10px;
+        text-align: center;
+        border-bottom: 1px solid rgba(192, 192, 192, 0.15);
+    }
 
     .notice-section {
         width: 90%;
@@ -1355,11 +1407,14 @@ ul {
         font-size: 1.7em;
     }
 
-    .medium-section-background{
+    .medium-section-background {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
+    .product h4 {
+        width: auto;
+    }
 }
 
 #scrollUp {
